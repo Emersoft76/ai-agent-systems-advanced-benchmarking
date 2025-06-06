@@ -11,8 +11,6 @@ and revise them using a self-reflection chain.
 - langchain >= 0.1.0
 - python-dotenv
 
-Usage:
-$ python examples/agent_self_reflection.py
 """
 
 import os
