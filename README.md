@@ -22,32 +22,31 @@ Este projeto oferece uma implementação educacional e prática de um sistema de
 
 ## 📂 Repository Structure | Estrutura do Repositório
 
-📁 ai-agent-systems-advanced-benchmarking
-├── 📄 README.md
-├── 📁 docs
-│ ├── 📄 architecture.md
-│ ├── 📄 benchmark-gaia.md
-│ ├── 📄 prompts-strategy.md
-│ ├── 📄 multimodal-vision.md
-│ ├── 📄 mcp-protocol.md
-│ └── 📄 deployment-guide.md
-├── 📁 examples
-│ ├── 📄 agent_self_reflection.py
-│ ├── 📄 async_pipeline_demo.py
-│ ├── 📄 document_parser_gpt4v.py
-│ └── 📄 multimodal_task_runner.py
-├── 📁 src
-│ ├── 📁 core
-│ ├── 📁 tools
-│ ├── 📁 vision
-│ ├── 📁 prompts
-│ └── 📁 utils
-├── 📁 tests
-│ └── 📄 test_benchmark_score.py
-├── 📄 .env.example
-├── 📄 requirements.txt
-├── 📄 setup.sh
-└── 📄 run_demo.py
+- 📄 [README.md](README.md)  
+- 📁 [docs](docs/)  
+  - 📄 [architecture.md](docs/architecture.md)  
+  - 📄 [benchmark-gaia.md](docs/benchmark-gaia.md)  
+  - 📄 [prompts-strategy.md](docs/prompts-strategy.md)  
+  - 📄 [multimodal-vision.md](docs/multimodal-vision.md)  
+  - 📄 [mcp-protocol.md](docs/mcp-protocol.md)  
+  - 📄 [deployment-guide.md](docs/deployment-guide.md)  
+- 📁 [examples](examples/)  
+  - 📄 [agent_self_reflection.py](examples/agent_self_reflection.py)  
+  - 📄 [async_pipeline_demo.py](examples/async_pipeline_demo.py)  
+  - 📄 [document_parser_gpt4v.py](examples/document_parser_gpt4v.py)  
+  - 📄 [multimodal_task_runner.py](examples/multimodal_task_runner.py)  
+- 📁 [src](src/)  
+  - 📁 [core](src/core/)  
+  - 📁 [tools](src/tools/)  
+  - 📁 [vision](src/vision/)  
+  - 📁 [prompts](src/prompts/)  
+  - 📁 [utils](src/utils/)  
+- 📁 [tests](tests/)  
+  - 📄 [test_benchmark_score.py](tests/test_benchmark_score.py)  
+- 📄 [.env.example](.env.example)  
+- 📄 [requirements.txt](requirements.txt)  
+- 📄 [setup.sh](setup.sh)  
+- 📄 [run_demo.py](run_demo.py)
 
 ---
 
