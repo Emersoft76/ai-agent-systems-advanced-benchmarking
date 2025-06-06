@@ -1,4 +1,4 @@
-# 🧠 AI Agent Systems – Advanced Benchmarking & Reasoning Toolkit  
+    # 🧠 AI Agent Systems – Advanced Benchmarking & Reasoning Toolkit  
 _Repository for Educational Purposes — LLM Agents, Multimodal Inputs & GAIA-style Benchmark Simulation_
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)  
@@ -22,34 +22,33 @@ Este projeto oferece uma implementação educacional e prática de um sistema de
 
 ## 📂 Repository Structure | Estrutura do Repositório
 
-```bash
-📁 ai-agent-systems-advanced-benchmarking/
-├── 📄 README.md ➜ (Você está aqui)
-├── 📁 docs/
-│   ├── 📄 architecture.md
-│   ├── 📄 benchmark-gaia.md
-│   ├── 📄 prompts-strategy.md
-│   ├── 📄 multimodal-vision.md
-│   ├── 📄 mcp-protocol.md
-│   └── 📄 deployment-guide.md
-├── 📁 examples/
-│   ├── 📄 agent_self_reflection.py
-│   ├── 📄 async_pipeline_demo.py
-│   ├── 📄 document_parser_gpt4v.py
-│   └── 📄 multimodal_task_runner.py
-├── 📁 src/
-│   ├── 📁 core/
-│   ├── 📁 tools/
-│   ├── 📁 vision/
-│   ├── 📁 prompts/
-│   └── 📁 utils/
-├── 📁 tests/
-│   └── 📄 test_benchmark_score.py
+📁 ai-agent-systems-advanced-benchmarking
+├── 📄 README.md
+├── 📁 docs
+│ ├── 📄 architecture.md
+│ ├── 📄 benchmark-gaia.md
+│ ├── 📄 prompts-strategy.md
+│ ├── 📄 multimodal-vision.md
+│ ├── 📄 mcp-protocol.md
+│ └── 📄 deployment-guide.md
+├── 📁 examples
+│ ├── 📄 agent_self_reflection.py
+│ ├── 📄 async_pipeline_demo.py
+│ ├── 📄 document_parser_gpt4v.py
+│ └── 📄 multimodal_task_runner.py
+├── 📁 src
+│ ├── 📁 core
+│ ├── 📁 tools
+│ ├── 📁 vision
+│ ├── 📁 prompts
+│ └── 📁 utils
+├── 📁 tests
+│ └── 📄 test_benchmark_score.py
+├── 📄 .env.example
 ├── 📄 requirements.txt
 ├── 📄 setup.sh
-├── 📄 .env.example
 └── 📄 run_demo.py
-```
+
 ---
 
 ## 🔗 Quick Access | Acesso Rápido
