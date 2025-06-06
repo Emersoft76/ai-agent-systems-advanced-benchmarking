@@ -91,15 +91,14 @@ python run_demo.py
 ```
 ---
 
-## 📜 License
+## 📄 Licença
 
-MIT © Emerson Maciel — Educational AI Repository
-LICENSE
+Este projeto é distribuído sob a [Licença MIT Bilíngue](./LICENSE), com autoria declarada por **Emerson Maciel** ([@Emersoft76](https://github.com/Emersoft76)), profissional graduado em Gestão de Redes (UNIP – Brasília/DF), e atuante em soluções modernas de Redes, Sistemas, Computação em Nuvem e IA.
+
+This repository is licensed under the [Bilingual MIT License](./LICENSE), authored by **Emerson Maciel**, professional graduated in Network Management (UNIP – Brasília/DF), and active in modern Network, Systems, Cloud Computing and AI solutions.
 
 ---
 
 🚧 Em desenvolvimento ativo. Mais exemplos práticos e integrações serão adicionados em breve.
 
 ---
-
-  
