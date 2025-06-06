@@ -5,7 +5,7 @@
 
 ## EN – Vision Models Integration
 
-This agent platform supports advanced multimodal inputs — including documents, screenshots, charts, and web images — by integrating state-of-the-art vision-capable LLMs.
+This agent platform supports advanced multimodal inputs, including documents, screenshots, charts, and web images´by integrating state-of-the-art vision-capable LLMs.
 
 ### 🎯 Models Used
 
@@ -28,7 +28,7 @@ This agent platform supports advanced multimodal inputs — including documents,
 
 ## PT – Integração de Modelos de Visão
 
-Esta plataforma de agentes suporta entradas multimodais avançadas — incluindo documentos, capturas de tela, gráficos e imagens da web — integrando os mais recentes LLMs com capacidade de visão.
+Esta plataforma de agentes suporta entradas multimodais avançadas, incluindo documentos, capturas de tela, gráficos e imagens da web, integrando os mais recentes LLMs com capacidade de visão.
 
 ### 🎯 Modelos Utilizados
 
