@@ -1,5 +1,4 @@
-    # 🧠 AI Agent Systems – Advanced Benchmarking & Reasoning Toolkit  
-_Repository for Educational Purposes — LLM Agents, Multimodal Inputs & GAIA-style Benchmark Simulation_
+# 🧠 AI Agent Systems – Advanced Benchmarking & Reasoning Toolkit  
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)  
 [![LangChain](https://img.shields.io/badge/LangChain-Framework-informational?logo=langchain&color=blue)](https://www.langchain.com/)  
