@@ -138,24 +138,6 @@ pytest tests/test_benchmark_score.py
 ```
 ---
 
-## 🧭 Project Structure
-
-| Path                        | Description                                 |
-|----------------------------|---------------------------------------------|
-| [`examples/`](examples/)   | Full example scripts: agent reflection, vision, async |
-| [`src/core/`](src/core/)   | Base agent architecture and orchestration   |
-| [`src/tools/`](src/tools/) | Tool classes: fact-checkers, memory, search |
-| [`src/vision/`](src/vision/)| GPT-4V integration and image/document processing |
-| [`src/prompts/`](src/prompts/)| Modular prompt templates                 |
-| [`src/utils/`](src/utils/) | Logging, error handling, timing, etc.       |
-| [`tests/`](tests/)         | Benchmark and performance test scripts      |
-| [`requirements.txt`](requirements.txt) | Dependency declarations for pip |
-| [`.env.example`](.env.example) | Example environment variables for API keys |
-| [`setup.sh`](setup.sh)     | One-line environment setup script           |
-| [`run_demo.py`](run_demo.py) | Main agent interaction demo               |
-
----
-
 ## 🎯 Benchmarks & Performance
 
 | Benchmark     | Target Score | Achieved   |
