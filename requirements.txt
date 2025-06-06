@@ -1,0 +1,24 @@
+# Core LLM + Agent Frameworks
+openai
+anthropic
+langchain
+transformers
+sentence-transformers
+
+# Vector DB + Persistence
+pinecone-client
+chromadb
+
+# Utilities & Tooling
+python-dotenv
+aiohttp
+pydantic
+fastapi
+uvicorn
+
+# Vision Models (optional GPT-4V integrations)
+opencv-python
+Pillow
+
+# Testing
+pytest
