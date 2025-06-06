@@ -51,19 +51,14 @@ Este projeto oferece uma implementação educacional e prática de um sistema de
 
 ## 🔗 Quick Access | Acesso Rápido
 
-    📘 Architecture Overview
+- 📘 [Architecture Overview](docs/architecture.md)  
+- 🧠 [GAIA Benchmark & Agent Reasoning](docs/benchmark-gaia.md)  
+- 🔁 [Prompt Strategies & Fallback Logic](docs/prompts-strategy.md)  
+- 🖼️ [Multimodal Processing (Vision Models)](docs/multimodal-vision.md)  
+- 🔧 [Tool Integration via MCP](docs/mcp-protocol.md)  
+- 🚀 [Deployment Guide (Linux & Windows)](docs/deployment-guide.md)
 
-    🧠 GAIA Benchmark & Agent Reasoning
-
-    🔁 Prompt Strategies & Fallback Logic
-
-    🖼️ Multimodal Processing
-
-    🔧 Tool Integration via MCP
-
-    🚀 Deployment Guide (Linux/Windows)
-
-  ---
+---
 
   | Tecnologia       | Descrição                                  | Link Oficial                                            |
 | ---------------- | ------------------------------------------ | ------------------------------------------------------- |
