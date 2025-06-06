@@ -91,6 +91,95 @@ python run_demo.py
 ```
 ---
 
+## 🚀 Getting Started
+
+Follow the steps below to get your environment ready.
+🧩 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/ai-agent-gaia-optimizer.git
+cd ai-agent-gaia-optimizer
+```
+
+🐍 2. Create and Activate a Virtual Environment
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+📦 3. Install Requirements
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+🔐 4. Configure Environment Variables
+
+Rename .env.example and insert your keys:
+```bash
+cp .env.example .env
+```
+Update values inside .env:
+```ini
+OPENAI_API_KEY=sk-...
+ANTHROPIC_API_KEY=...
+PINECONE_API_KEY=...
+```
+---
+
+🧪 Run the Demo
+
+Test a full agent pipeline with:
+```bash
+python run_demo.py
+```
+Or test benchmark scoring:
+```bash
+pytest tests/test_benchmark_score.py
+```
+---
+
+## 🧭 Project Structure
+
+| Path                        | Description                                 |
+|----------------------------|---------------------------------------------|
+| [`examples/`](examples/)   | Full example scripts: agent reflection, vision, async |
+| [`src/core/`](src/core/)   | Base agent architecture and orchestration   |
+| [`src/tools/`](src/tools/) | Tool classes: fact-checkers, memory, search |
+| [`src/vision/`](src/vision/)| GPT-4V integration and image/document processing |
+| [`src/prompts/`](src/prompts/)| Modular prompt templates                 |
+| [`src/utils/`](src/utils/) | Logging, error handling, timing, etc.       |
+| [`tests/`](tests/)         | Benchmark and performance test scripts      |
+| [`requirements.txt`](requirements.txt) | Dependency declarations for pip |
+| [`.env.example`](.env.example) | Example environment variables for API keys |
+| [`setup.sh`](setup.sh)     | One-line environment setup script           |
+| [`run_demo.py`](run_demo.py) | Main agent interaction demo               |
+
+---
+
+## 🎯 Benchmarks & Performance
+
+| Benchmark     | Target Score | Achieved   |
+| ------------- | ------------ | ---------- |
+| GAIA Lite     | ≥ 0.70       | 🧪 Pending |
+| MMLU (subset) | ≥ 0.65       | 🧪 Pending |
+
+🛠 Use tests/test_benchmark_score.py to evaluate performance with custom or full datasets.
+
+---
+
+## 📷 Demo Preview
+```bash
+python examples/agent_self_reflection.py
+python examples/document_parser_gpt4v.py
+```
+These scripts demonstrate:
+
+- 🔁 Self-reflecting agents improving response quality
+- 🧠 Multimodal agents extracting insights from documents/images
+- 🕸️ Tool-based query decomposition and validation
+
+---
+
 ## 📄 Licença
 
 Este projeto é distribuído sob a [Licença MIT Bilíngue](./LICENSE), com autoria declarada por **Emerson Maciel** ([@Emersoft76](https://github.com/Emersoft76)), profissional graduado em Gestão de Redes (UNIP – Brasília/DF), e atuante em soluções modernas de Redes, Sistemas, Computação em Nuvem e IA.
