@@ -1,20 +1,3 @@
-"""
-Agent Self-Reflection Example
------------------------------
-
-🧠 Purpose:
-This script demonstrates an agent that can evaluate its own responses
-and revise them using a self-reflection chain.
-
-📦 Requirements:
-- openai
-- langchain >= 0.1.0
-- python-dotenv
-
-Usage:
-$ python examples/agent_self_reflection.py
-"""
-
 import os
 from dotenv import load_dotenv
 from langchain.chat_models import ChatOpenAI
@@ -54,6 +37,3 @@ print(response)
 print("\n🧠 Agent Self-Reflection:")
 reflection = critique_chain.run(input=response)
 print(reflection)
-
-# ✅ Outcome:
-# The agent will critique and revise its own output for higher factual consistency.
